@@ -9,7 +9,7 @@ if [[ -f $filename ]]; then
   # grep -i $grepvar $filename # to remove case sensitivity
   # grep -i -n $grepvar $filename # to show the line number
   # grep -i -c $grepvar $filename # to show number of occurance
-  grep -i -v $grepvar $filename # to show the lines with out this text
+  grep -i -v $grepvar $filename # to show the lines with out this text we are searching with
 else
   printf "File does not exits"
 fi
